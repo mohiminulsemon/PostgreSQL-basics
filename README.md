@@ -49,7 +49,7 @@ An `order_id` in an "Orders" table refers to a `customer_id` from the "Customers
 
 ---
 
-## 5. What is the purpose of the WHERE clause?
+## 5. Explain the purpose of the WHERE clause in a SELECT statement.
 
 - **Filters records** in a query based on a condition.
 - **Only matching rows** are included in the result.
@@ -70,7 +70,7 @@ An `order_id` in an "Orders" table refers to a `customer_id` from the "Customers
 
 ---
 
-## 7. How to modify data using UPDATE statements?
+## 7. How can you perform data modification using UPDATE statements?
 
 - The `UPDATE` statement **changes existing records** in a table.
 - Use a **WHERE clause** to specify which rows to update.
@@ -80,7 +80,7 @@ An `order_id` in an "Orders" table refers to a `customer_id` from the "Customers
 
 ---
 
-## 8. What is the JOIN operation and how does it work?
+## 8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
 
 - **JOIN** combines rows from two or more tables based on related columns.
 - **Types of JOINs**:
@@ -93,7 +93,7 @@ An `order_id` in an "Orders" table refers to a `customer_id` from the "Customers
 
 ---
 
-## 9. What is the GROUP BY clause and its role?
+## 9. Explain the GROUP BY clause and its role in aggregation operations.
 
 - **Groups records** by specific column values.
 - Often used with **aggregate functions** to summarize data.
@@ -104,7 +104,7 @@ An `order_id` in an "Orders" table refers to a `customer_id` from the "Customers
 
 ---
 
-## 10. How to calculate aggregate functions like COUNT, SUM, and AVG?
+## 10. How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
 
 - **COUNT**: Counts the total number of records.  
   Example: `SELECT COUNT(*) FROM Orders;`
